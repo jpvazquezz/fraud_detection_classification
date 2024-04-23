@@ -61,7 +61,7 @@ Fold 8: No sign of overfitting \
 Fold 9: No sign of overfitting \
 Fold 10: No sign of overfitting
 
-
+!['Gradiente Boosting Classifier Test Scores](img/gbc_test_scores.png)
 
 | Model Champion |  n_estimators  |   learning_rate  |  max_depth  |  Final F1-Score  |
 |--------------|---------|-----------|----------|-----------|
@@ -71,11 +71,11 @@ Fold 10: No sign of overfitting
 
 ## 6. Financial Impact Report
 
-Without the fraud detection model, the cost of covering fraudulent transactions was $1,133,324.68 (true positives). 
+Without the fraud detection model, the cost of covering fraudulent transactions was $1.133.324,68 (true positives). 
 
-If the model were implemented, we would save approximately $1,132,325.80, with about $998.88 in costs due to failures (false negatives).
+If the model was implemented, we would save approximately $1.132.325,80, with about $998,88 in costs due to failures (false negatives).
 
-Therefore, the return on investment (ROI) would be $113,259.54%.
+Therefore, the return on investment (ROI) would be $113.259,54%.
 ## 7. Conclusion
 At the end of the development, we can conclude that the model is ready to serve as a tool to support decisions and actions aimed at combating and preventing fraud in credit card transactions, providing precise identification of transactions that are characterized as fraudulent.
 
